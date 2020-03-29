@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A30CB752416DD43009ADBE6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A30CB742416DD43009ADBE6 /* AuthService.swift */; };
+		3A6DE4B024158D890008AA34 /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4AE24158D890008AA34 /* AWSMobileClient.framework */; };
+		3A6DE4B124158D890008AA34 /* AWSMobileClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4AE24158D890008AA34 /* AWSMobileClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6DE4B224158D890008AA34 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4AF24158D890008AA34 /* AWSCore.framework */; };
+		3A6DE4B324158D890008AA34 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4AF24158D890008AA34 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6DE4B924158FB10008AA34 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DE4B824158FB10008AA34 /* awsconfiguration.json */; };
+		3A6DE4BB2415922B0008AA34 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4BA2415922B0008AA34 /* AWSAuthCore.framework */; };
+		3A6DE4BC2415922B0008AA34 /* AWSAuthCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4BA2415922B0008AA34 /* AWSAuthCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6DE4BE2415927C0008AA34 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4BD2415927C0008AA34 /* AWSCognitoIdentityProvider.framework */; };
+		3A6DE4BF2415927C0008AA34 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4BD2415927C0008AA34 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6DE4C1241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4C0241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework */; };
+		3A6DE4C2241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6DE4C0241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A7AC426241586C2003AD2D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC425241586C2003AD2D9 /* AppDelegate.swift */; };
+		3A7AC428241586C2003AD2D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC427241586C2003AD2D9 /* SceneDelegate.swift */; };
+		3A7AC42A241586C2003AD2D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC429241586C2003AD2D9 /* ContentView.swift */; };
+		3A7AC42C241586C3003AD2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC42B241586C3003AD2D9 /* Assets.xcassets */; };
+		3A7AC42F241586C3003AD2D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC42E241586C3003AD2D9 /* Preview Assets.xcassets */; };
+		3A7AC432241586C3003AD2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC430241586C3003AD2D9 /* LaunchScreen.storyboard */; };
+		3A7AC43B241589D0003AD2D9 /* KeyboardObserving in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7AC43A241589D0003AD2D9 /* KeyboardObserving */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A6DE4B424158D890008AA34 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A6DE4BC2415922B0008AA34 /* AWSAuthCore.framework in Embed Frameworks */,
+				3A6DE4B124158D890008AA34 /* AWSMobileClient.framework in Embed Frameworks */,
+				3A6DE4B324158D890008AA34 /* AWSCore.framework in Embed Frameworks */,
+				3A6DE4C2241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework in Embed Frameworks */,
+				3A6DE4BF2415927C0008AA34 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A30CB742416DD43009ADBE6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3A6DE4AE24158D890008AA34 /* AWSMobileClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileClient.framework; path = CognitoAuthentication/AWSMobileClient.framework; sourceTree = "<group>"; };
+		3A6DE4AF24158D890008AA34 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = CognitoAuthentication/AWSCore.framework; sourceTree = "<group>"; };
+		3A6DE4B824158FB10008AA34 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		3A6DE4BA2415922B0008AA34 /* AWSAuthCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAuthCore.framework; path = CognitoAuthentication/AWSAuthCore.framework; sourceTree = "<group>"; };
+		3A6DE4BD2415927C0008AA34 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = CognitoAuthentication/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
+		3A6DE4C0241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProviderASF.framework; path = CognitoAuthentication/AWSCognitoIdentityProviderASF.framework; sourceTree = "<group>"; };
+		3A7AC422241586C2003AD2D9 /* CognitoAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitoAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7AC425241586C2003AD2D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A7AC427241586C2003AD2D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A7AC429241586C2003AD2D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A7AC42B241586C3003AD2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A7AC42E241586C3003AD2D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A7AC431241586C3003AD2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A7AC433241586C3003AD2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A7AC41F241586C2003AD2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6DE4C1241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework in Frameworks */,
+				3A7AC43B241589D0003AD2D9 /* KeyboardObserving in Frameworks */,
+				3A6DE4B024158D890008AA34 /* AWSMobileClient.framework in Frameworks */,
+				3A6DE4B224158D890008AA34 /* AWSCore.framework in Frameworks */,
+				3A6DE4BE2415927C0008AA34 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				3A6DE4BB2415922B0008AA34 /* AWSAuthCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7AC419241586C2003AD2D9 = {
+			isa = PBXGroup;
+			children = (
+				3A7AC424241586C2003AD2D9 /* CognitoAuthentication */,
+				3A7AC423241586C2003AD2D9 /* Products */,
+				3A7AC43C24158AAC003AD2D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A7AC423241586C2003AD2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7AC422241586C2003AD2D9 /* CognitoAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A7AC424241586C2003AD2D9 /* CognitoAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				3A7AC425241586C2003AD2D9 /* AppDelegate.swift */,
+				3A7AC427241586C2003AD2D9 /* SceneDelegate.swift */,
+				3A7AC429241586C2003AD2D9 /* ContentView.swift */,
+				3A7AC42B241586C3003AD2D9 /* Assets.xcassets */,
+				3A7AC430241586C3003AD2D9 /* LaunchScreen.storyboard */,
+				3A7AC433241586C3003AD2D9 /* Info.plist */,
+				3A7AC42D241586C3003AD2D9 /* Preview Content */,
+				3A6DE4B824158FB10008AA34 /* awsconfiguration.json */,
+				3A30CB742416DD43009ADBE6 /* AuthService.swift */,
+			);
+			path = CognitoAuthentication;
+			sourceTree = "<group>";
+		};
+		3A7AC42D241586C3003AD2D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A7AC42E241586C3003AD2D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A7AC43C24158AAC003AD2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6DE4C0241592D90008AA34 /* AWSCognitoIdentityProviderASF.framework */,
+				3A6DE4BD2415927C0008AA34 /* AWSCognitoIdentityProvider.framework */,
+				3A6DE4BA2415922B0008AA34 /* AWSAuthCore.framework */,
+				3A6DE4AF24158D890008AA34 /* AWSCore.framework */,
+				3A6DE4AE24158D890008AA34 /* AWSMobileClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7AC421241586C2003AD2D9 /* CognitoAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7AC436241586C3003AD2D9 /* Build configuration list for PBXNativeTarget "CognitoAuthentication" */;
+			buildPhases = (
+				3A7AC41E241586C2003AD2D9 /* Sources */,
+				3A7AC41F241586C2003AD2D9 /* Frameworks */,
+				3A7AC420241586C2003AD2D9 /* Resources */,
+				3A6DE4B424158D890008AA34 /* Embed Frameworks */,
+				3A6DE4B524158EC40008AA34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CognitoAuthentication;
+			packageProductDependencies = (
+				3A7AC43A241589D0003AD2D9 /* KeyboardObserving */,
+			);
+			productName = CognitoAuthentication;
+			productReference = 3A7AC422241586C2003AD2D9 /* CognitoAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A7AC41A241586C2003AD2D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gustavo Tavares";
+				TargetAttributes = {
+					3A7AC421241586C2003AD2D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A7AC41D241586C2003AD2D9 /* Build configuration list for PBXProject "CognitoAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A7AC419241586C2003AD2D9;
+			packageReferences = (
+				3A7AC439241589D0003AD2D9 /* XCRemoteSwiftPackageReference "KeyboardObserving" */,
+			);
+			productRefGroup = 3A7AC423241586C2003AD2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7AC421241586C2003AD2D9 /* CognitoAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7AC420241586C2003AD2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6DE4B924158FB10008AA34 /* awsconfiguration.json in Resources */,
+				3A7AC432241586C3003AD2D9 /* LaunchScreen.storyboard in Resources */,
+				3A7AC42F241586C3003AD2D9 /* Preview Assets.xcassets in Resources */,
+				3A7AC42C241586C3003AD2D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6DE4B524158EC40008AA34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A7AC41E241586C2003AD2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7AC426241586C2003AD2D9 /* AppDelegate.swift in Sources */,
+				3A7AC428241586C2003AD2D9 /* SceneDelegate.swift in Sources */,
+				3A7AC42A241586C2003AD2D9 /* ContentView.swift in Sources */,
+				3A30CB752416DD43009ADBE6 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A7AC430241586C3003AD2D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7AC431241586C3003AD2D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A7AC434241586C3003AD2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A7AC435241586C3003AD2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A7AC437241586C3003AD2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CognitoAuthentication/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YB9C5DSP3;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CognitoAuthentication",
+				);
+				INFOPLIST_FILE = CognitoAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brclouders.CognitoAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A7AC438241586C3003AD2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CognitoAuthentication/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YB9C5DSP3;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CognitoAuthentication",
+				);
+				INFOPLIST_FILE = CognitoAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brclouders.CognitoAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A7AC41D241586C2003AD2D9 /* Build configuration list for PBXProject "CognitoAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7AC434241586C3003AD2D9 /* Debug */,
+				3A7AC435241586C3003AD2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7AC436241586C3003AD2D9 /* Build configuration list for PBXNativeTarget "CognitoAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7AC437241586C3003AD2D9 /* Debug */,
+				3A7AC438241586C3003AD2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A7AC439241589D0003AD2D9 /* XCRemoteSwiftPackageReference "KeyboardObserving" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nickffox/KeyboardObserving.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A7AC43A241589D0003AD2D9 /* KeyboardObserving */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A7AC439241589D0003AD2D9 /* XCRemoteSwiftPackageReference "KeyboardObserving" */;
+			productName = KeyboardObserving;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3A7AC41A241586C2003AD2D9 /* Project object */;
+}

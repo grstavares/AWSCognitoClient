@@ -1,0 +1,6 @@
+awsconfiguration.json
+AWSAuthCore.framework
+AWSCognitoIdentityProvider.framework
+AWSCognitoIdentityProviderASF.framework
+AWSCore.framework
+AWSMobileClient.framework
