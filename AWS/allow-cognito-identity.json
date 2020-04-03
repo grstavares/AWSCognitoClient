@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cognito-identity:CreateIdentityPool",
+          "cognito-identity:DeleteIdentityPool",
+          "cognito-identity:DescribeIdentityPool",
+          "cognito-identity:GetIdentityPoolRoles",
+          "cognito-identity:ListIdentityPools",
+          "cognito-identity:SetIdentityPoolRoles",
+          "cognito-identity:UpdateIdentityPool"
+        ],
+        "Resource": [ "*" ]
+      }
+    ]
+  }
